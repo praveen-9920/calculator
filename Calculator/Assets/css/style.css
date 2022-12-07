@@ -1,0 +1,47 @@
+
+.Container{
+    height: auto;
+    width: 700px;
+    background-color: rgb(0, 4, 255);
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+    color: white;
+}
+.item{
+    height: 100px;
+    border: 0px;
+    background-color: rgb(9, 255, 25);
+}
+.item1{
+    grid-column-start: 1;
+    background-color: transparent;
+    grid-column-end: 5;
+}
+input[type="text"]
+{
+    height: 100px;
+    width: 100%;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 20px;
+}
+button{
+    font-size: 30px;
+    border-radius: 20px;
+}
+.main{
+    text-align: center;
+    color: red;
+}
+.heading{
+    font-size: 80px;
+    background-image: linear-gradient(purple, darkblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
